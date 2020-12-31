@@ -4,7 +4,7 @@ Swal critical is a simple addon for [Sweet Alert](https://github.com/sweetalert2
 ## Usage
 The default validation is 'action target', so if you want to **delete** the **product1**, the code would be simply:
 ```javascript
-Swal.fireCritical({action:"delete", prop:"product1"}).then((result) => {
+Swal.fireCritical({action:"delete", target:"product1"}).then((result) => {
   if (result.isConfirmed) { // Check if confirmed
     Swal.fire('Deleted !', '', 'success') // Code to be executed when confirmed
   }
