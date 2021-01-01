@@ -34,7 +34,7 @@ Resultando em:
 
 ![Imagem do modal de confirmação](https://i.imgur.com/tLe2yn9.jpg)
 
-O método SweetAlert.fireCritical é apenas uma interface que chama o método SweetAlert.fire, tendo em vista que usa parâmetro ellipsis, é possível passar os mesmos parâmetros do fire para personalizar a caixa de confirmação (ou adicionar em swalcritical.js, variável **defaults** para definir como padrão).
+O método `SweetAlert.fireCritical` é apenas uma interface que chama o método `SweetAlert.fire`, tendo em vista que usa parâmetro ellipsis, é possível passar os mesmos parâmetros do fire para personalizar a caixa de confirmação (ou adicionar em swalcritical.js, variável **defaults** para definir como padrão).
 
 ## À fazer
 
