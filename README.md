@@ -34,7 +34,7 @@ Resulting in:
 
 ![Confirmation dialog image](https://i.imgur.com/tLe2yn9.jpg)
 
-SweetAlert.fireCritical method is just an interface that calls SweetAlert.fire method, since it uses ellipsis properties, you can pass the same fire arguments to customize it (or add in swalcritical.js, **defaults** variable to set as default).
+`SweetAlert.fireCritical` method is just an interface that calls `SweetAlert.fire` method, since it uses ellipsis properties, you can pass the same fire arguments to customize it (or add in swalcritical.js, **defaults** variable to set as default).
 
 ## To do
 
